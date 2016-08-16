@@ -18,7 +18,7 @@ Now, We will explore more about sentiment Analysis!
 
 Following below image, first step is data selection, i.e. , we need to split our data into three subsets: training set with positives and negatives examples, validation to help us to adjust our system and testing set or evaluation set.
 
-** IMAGEN 1 **
+** IMAGE 1 **
 
 **Source:** http://www.scielo.br/scielo.php?script=sci_arttext&pid=S0101-74382012000100009
 
@@ -37,4 +37,50 @@ The advantages of support vector machines are:
 The disadvantages of support vector machines include:
 * If the number of features is much greater than the number of samples, the method is likely to give poor performances.
 * SVMs do not directly provide probability estimates, these are calculated using an expensive five-fold cross-validation.
+
+## Kernel Classification:
+** IMAGE 2 **
+
+**Source:** http://scikit-learn.org/stable/modules/svm.html
+
+## What about Deep Learning?
+
+** IMAGE 3 **
+
+In machine learning and cognitive science, artificial neural networks are a family of models inspired by biological neural networks (the central nervous systems of animals, in particular the brain) which are used to estimate or approximate functions that can depend on a large number of inputs and are generally unknown. Artificial neural networks are typically specified using three things:
+
+*Architecture* specifies what variables are involved in the network and their topological relationships—for example the variables involved in a neural network might be the weights of the connections between the neurons, along with activities of the neurons.
+
+** IMAGE 4 **
+
+**Activity Rule** Most neural network models have short time-scale dynamics: local rules define how the activities of the neurons change in response to each other. Typically the activity rule depends on the weights (the parameters) in the network.
+**Learning Rule** The learning rule specifies the way in which the neural network's weights change with time. This learning is usually viewed as taking place on a longer time scale than the time scale of the dynamics under the activity rule. Usually the learning rule will depend on the activities of the neurons. It may also depend on the values of the target values supplied by a teacher and on the current value of the weights. There are three major learning paradigms, each corresponding to a particular abstract learning task. These are **supervised learning**, **unsupervised learning** and **reinforcement learning**.
+
+
+* Supervised learning:  is the machine learning task of inferring a function from labeled training data.
+* Unsupervised learning:  is the machine learning task of inferring a function to describe hidden structure from unlabeled data. Since the examples given to the learner are unlabeled, there is no error or reward signal to evaluate a potential solution.
+* Reinforcement learning: is an area of machine learning inspired by behaviorist psychology, concerned with how software agents ought to take actions in an environment so as to maximize some notion of cumulative reward
+
+**Source:** Mehryar Mohri, Afshin Rostamizadeh, Ameet Talwalkar (2012) Foundations of Machine Learning, The MIT Press ISBN 9780262018258.
+
+**Recommendation Stanford Course:** http://cs231n.github.io/
+
+## Gradient Descent
+
+Gradient descent is a first-order optimization algorithm. To find a local minimum of a function using gradient descent, one takes steps proportional to the negative of the gradient (or of the approximate gradient) of the function at the current point. If instead one takes steps proportional to the positive of the gradient, one approaches a local maximum of that function; the procedure is then known as gradient ascent. Gradient descent is also known as steepest descent, or the method of steepest descent.
+
+** IMAGE 5 **
+
+Gradient descent is based on the observation that if the multi-variable function F(x) is defined and differentiable in a neighborhood of a point a, then F(x) decreases fastest if one goes from a in the direction of the negative gradient of F at a, −∇F(a).
+
+**Source:** http://papers.nips.cc/paper/1576-gradient-descent-for-general-reinforcement-learning.pdf
+
+## Optimization Algorithms for Gradient Descent
+
+** IMAGE 6 **
+
+**Source:** http://www.denizyuret.com/2015/03/alec-radfords-animations-for.html
+
+**Full Code and presentation:** 
+https://github.com/waybarrios/Django_Meetup/blob/master/Presentation_Meetup_Django_BAQ.ipynb
 
