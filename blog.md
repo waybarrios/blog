@@ -1,1 +1,2 @@
 # blog
+The human brain is a sophisticated biological machine, forming rules and knowledge by memorizing everyday events. Those events help us to generalize learnings about things which we haven't seen yet, since memorization allows us to further refine our generalized rules about what is right. However, technology has a big growth in the recent times, a lot of computer scientists have been asking themselves the following question: Can we teach computer to learn like humans do? And the answer is simple: Yes, it´s possible!
